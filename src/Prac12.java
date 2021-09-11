@@ -22,6 +22,7 @@ public class Prac12 {
 		else if(s.equals("/")) {
 			if(b==0) {
 				System.out.println("0으로 나눌 수 없습니다.");
+				return;
 			}
 			else {
 				ans=a/b;

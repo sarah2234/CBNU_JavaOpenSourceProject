@@ -19,9 +19,6 @@ public class Prac06 {
 		else if(cnt == 2) {
 			System.out.println("¹Ú¼öÂ¦Â¦");
 		}
-		else if(cnt == 3) {
-			System.out.println("¹Ú¼öÂ¦Â¦Â¦");
-		}
 	}
 
 }
