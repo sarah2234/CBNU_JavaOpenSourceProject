@@ -1,20 +1,22 @@
+package Ch2;
+
 import java.util.Scanner;
 
 public class Prac10 {
 	public static void main(String args[]) {
 		Scanner scanner=new Scanner(System.in);
-		System.out.print("Ã¹ ¹øÂ° ¿øÀÇ Áß½É°ú ¹ÝÁö¸§ ÀÔ·Â>> ");
+		System.out.print("ì²« ë²ˆì§¸ ì›ì˜ ì¤‘ì‹¬ê³¼ ë°˜ì§€ë¦„ ìž…ë ¥>> ");
 		int x1=scanner.nextInt();
 		int y1=scanner.nextInt();
 		int r1=scanner.nextInt();
 		
-		System.out.print("µÎ ¹øÂ° ¿øÀÇ Áß½É°ú ¹ÝÁö¸§ ÀÔ·Â>> ");
+		System.out.print("ë‘ ë²ˆì§¸ ì›ì˜ ì¤‘ì‹¬ê³¼ ë°˜ì§€ë¦„ ìž…ë ¥>> ");
 		int x2=scanner.nextInt();
 		int y2=scanner.nextInt();
 		int r2=scanner.nextInt();
 		
 		if((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2) <= (r1 + r2) * (r1 + r2)) {
-			System.out.println("µÎ ¿øÀº ¼­·Î °ãÄ£´Ù.");
+			System.out.println("ë‘ ì›ì€ ì„œë¡œ ê²¹ì¹œë‹¤.");
 		}
 	}
 }

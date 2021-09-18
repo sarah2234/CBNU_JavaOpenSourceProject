@@ -1,14 +1,15 @@
+package Ch2;
 import java.util.Scanner;
 
 public class Prac02 {
 	public static void main(String args[]) {
 		Scanner scanner=new Scanner(System.in);
-		
-		System.out.print("2ÀÚ¸®¼ö Á¤¼ö ÀÔ·Â(19-99)>> ");
+
+		System.out.print("2ìë¦¬ìˆ˜ ì •ìˆ˜ ì…ë ¥(19-99)>> ");
 		int a=scanner.nextInt();
-		
+
 		if(a/10 == a%10) {
-			System.out.println("Yes! 10ÀÇ ÀÚ¸®¿Í 1ÀÇ ÀÚ¸®°¡ °°½À´Ï´Ù.");
+			System.out.println("Yes! 10ì˜ ìë¦¬ì™€ 1ì˜ ìë¦¬ê°€ ê°™ìŠµë‹ˆë‹¤.");
 		}
 	}
 

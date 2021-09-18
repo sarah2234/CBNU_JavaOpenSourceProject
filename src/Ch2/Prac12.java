@@ -1,9 +1,11 @@
+package Ch2;
+
 import java.util.Scanner;
 
 public class Prac12 {
 	public static void main(String args[]) {
 		Scanner scanner=new Scanner(System.in);
-		System.out.print("¿¬»ê>> ");
+		System.out.print("ì—°ì‚°>> ");
 		int a=scanner.nextInt();
 		String s=scanner.next();
 		int b=scanner.nextInt();
@@ -21,13 +23,13 @@ public class Prac12 {
 		}
 		else if(s.equals("/")) {
 			if(b==0) {
-				System.out.println("0À¸·Î ³ª´­ ¼ö ¾ø½À´Ï´Ù.");
+				System.out.println("0ìœ¼ë¡œ ë‚˜ëˆŒ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 				return;
 			}
 			else {
 				ans=a/b;
 			}
 		}
-		System.out.println(a+s+b+"ÀÇ °è»ê °á°ú´Â "+ans);
+		System.out.println(a+s+b+"ì˜ ê³„ì‚° ê²°ê³¼ëŠ” "+ans);
 	}
 }

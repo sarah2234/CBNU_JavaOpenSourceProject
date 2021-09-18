@@ -1,14 +1,15 @@
+package Ch2;
 import java.util.Scanner;
 
 public class Prac04 {
 	public static void main(String args[]) {
 		Scanner scanner=new Scanner(System.in);
-		System.out.print("Á¤¼ö 3°³ ÀÔ·Â>> ");
+		System.out.print("ì •ìˆ˜ 3ê°œ ìž…ë ¥>> ");
 		int a=scanner.nextInt();
 		int b=scanner.nextInt();
 		int c=scanner.nextInt();
 		int mid;
-		
+
 		if((b < a && a < c) || (c < a && a < b)) {
 			mid=a;
 		}
@@ -18,7 +19,7 @@ public class Prac04 {
 		else {
 			mid=c;
 		}
-		System.out.println("Áß°£ °ªÀº " + mid);
+		System.out.println("ì¤‘ê°„ ê°’ì€ " + mid);
 	}
 
 }

@@ -1,9 +1,10 @@
+package Ch2;
 import java.util.Scanner;
 
 public class Prac06 {
 	public static void main(String args[]) {
 		Scanner scanner=new Scanner(System.in);
-		System.out.print("1~99 »çÀÌ Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À>> ");
+		System.out.print("1~99 ì‚¬ì´ì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤>> ");
 		int a=scanner.nextInt();
 		int cnt=0;
 		if((a / 10) % 3 == 0) {
@@ -14,10 +15,10 @@ public class Prac06 {
 		}
 		
 		if(cnt == 1) {
-			System.out.println("¹Ú¼öÂ¦");
+			System.out.println("ë°•ìˆ˜ì§");
 		}
 		else if(cnt == 2) {
-			System.out.println("¹Ú¼öÂ¦Â¦");
+			System.out.println("ë°•ìˆ˜ì§ì§");
 		}
 	}
 
