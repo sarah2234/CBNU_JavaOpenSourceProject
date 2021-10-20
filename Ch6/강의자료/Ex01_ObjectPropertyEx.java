@@ -1,9 +1,9 @@
 package Ch6.강의자료;
 
-class Point {
+class Ex01_Point {
     int x, y;
 
-    public Point(int x, int y) {
+    public Ex01_Point(int x, int y) {
         this.x = x;
         this.y = y;
     }
@@ -16,7 +16,7 @@ public class Ex01_ObjectPropertyEx {
         System.out.println(obj); // 객체 출력
     }
     public static void main(String [] args) {
-        Point p = new Point(2,3);
+        Ex01_Point p = new Ex01_Point(2,3);
         print(p);
     }
 }

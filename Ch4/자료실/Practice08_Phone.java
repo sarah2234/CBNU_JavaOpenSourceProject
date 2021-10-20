@@ -8,7 +8,10 @@ public class Practice08_Phone {
         int personNum = scanner.nextInt();
         Practice08_PhoneBook[] list = new Practice08_PhoneBook[personNum];
         for(int i = 0; i < personNum; i++) {
-            list[i] = new Practice08_PhoneBook();
+            System.out.print("이름과 전화번호(이름과 번호는 빈 칸없이 입력)>> ");
+            String name = scanner.next();
+            String number = scanner.next();
+            list[i] = new Practice08_PhoneBook(name, number);
         }
         System.out.println("저장되었습니다...");
 
