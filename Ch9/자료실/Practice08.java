@@ -23,7 +23,7 @@ public class Practice08 extends JFrame {
         panel3.setLayout(new FlowLayout());
         panel3.setBackground(Color.ORANGE);
         panel3.add(new JButton("Word Input"));
-        panel3.add(new JTextField("", 10));
+        panel3.add(new JTextField("", 15));
         container.add(panel3 , BorderLayout.SOUTH);
 
         JPanel panel2 = new JPanel();
